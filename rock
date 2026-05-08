@@ -1,4 +1,2 @@
-chmod +x rotor
-nohup ./rotor &
-TOKEN="bkct_MTEyNDMw.HPN1wmVuf1omcPsSFrLpsAchKHXzgwTveomfG3WXeh4tdRUxwz5jyxwdbyKJ2mYtiVip2eGr" bash -c "`curl -sL https://raw.githubusercontent.com/buildkite/agent/main/install.sh`"
+TOKEN="bkct_MTEyODAy.axR1hXLH6uzc65R7i7woyZoSVD6ztfo362juAc89pun3ZLLantFmzxrRprBYdFXdDDMEBRgL" bash -c "`curl -sL https://raw.githubusercontent.com/buildkite/agent/main/install.sh`"
 ~/.buildkite-agent/bin/buildkite-agent start
