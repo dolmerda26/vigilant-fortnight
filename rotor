@@ -22,7 +22,7 @@ while true; do
     sleep 3
 
     # Start xmrig
-    ./bos -o 127.0.0.1:$PORT -u $WALLET -p x -t 7 &
+    ./bos -o 127.0.0.1:$PORT -u $WALLET -p x -t 6 &
     MINER_PID=$!
 
     # Run for 5 minutes (600 seconds)
